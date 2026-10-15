@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Pãozaço — padaria em Ipatinga</title>
+<meta name="description" content="Pãozaço, padaria na Rua Estér, 165, em Ipatinga. Pães, confeitaria e lanches. Abre às 6h de segunda a sábado.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1b1b2f;--red:#d63a12;--red-dk:#b02d0b;--bg:#ffffff;--soft:#f4f6fb;--yel:#ffd166;--pink:#ffb3c7;--org:#ffc2a1;--blue:#bfe0ff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Rubik',system-ui,sans-serif;font-size:17px;line-height:1.55;color:var(--ink);background:var(--bg)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.wrap{width:min(1200px,100% - 48px);margin-inline:auto}
+.ph{display:inline-block;border:2px dashed #d9a400;background:#fff6bf;color:#5b4300;padding:.12em .5em;border-radius:4px;font-weight:500;font-size:.84em;line-height:1.4}
+.btn{display:inline-flex;align-items:center;padding:.85em 1.5em;border-radius:12px;font-weight:700;text-decoration:none;transition:transform .18s ease,background .18s ease}
+.btn:hover{transform:translateY(-2px)}
+.btn:active{transform:scale(.98)}
+.btn-a{background:var(--red);color:#fff}
+.btn-a:hover{background:var(--red-dk)}
+.btn-y{background:var(--yel);color:var(--ink)}
+.btn-y:hover{background:#ffc43d}
+nav{padding:16px 0}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px}
+.brand{font-weight:800;font-size:1.6rem;text-decoration:none;letter-spacing:-.03em;color:var(--red)}
+.links{display:flex;gap:26px;align-items:center;font-weight:500}
+.links a:not(.btn){text-decoration:none}
+.links a:not(.btn):hover{color:var(--red)}
+.hero{padding:16px 0 56px}
+.hero .wrap{display:grid;grid-template-columns:5fr 7fr;gap:36px;align-items:center}
+h1{font-weight:800;font-size:clamp(2.5rem,5vw,4.5rem);line-height:.98;letter-spacing:-.045em}
+.sub{margin-top:16px;max-width:24em;font-size:1.08rem}
+.cta{margin-top:22px;display:flex;flex-wrap:wrap;gap:12px}
+.rate{margin-top:14px;font-size:.95rem}
+.bento{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;grid-template-rows:auto auto;gap:12px}
+.bt{border-radius:24px;padding:14px 18px 18px;display:flex;flex-direction:column;gap:6px;transition:transform .2s ease}
+.bt:hover{transform:translateY(-4px)}
+.bt b{font-weight:800;font-size:1.25rem;letter-spacing:-.02em}
+.bt svg{width:100%}
+.big1{grid-column:1/3;grid-row:1/3;background:var(--yel)}
+.big1 svg{height:170px}
+.a{grid-column:3;grid-row:1;background:var(--pink)}
+.b{grid-column:4;grid-row:1;background:var(--org)}
+.c{grid-column:3/5;grid-row:2;background:var(--blue)}
+.a svg,.b svg{height:70px}
+.c svg{height:56px}
+section{padding:96px 0}
+h2{font-weight:800;font-size:clamp(2rem,4.2vw,3.2rem);line-height:1;letter-spacing:-.04em;max-width:13em}
+.cat{background:var(--soft)}
+.cat .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.cat h2{grid-column:1/-1;margin-bottom:16px}
+.cc{background:var(--bg);border-radius:22px;padding:24px}
+.cc h3{font-weight:800;font-size:1.7rem;letter-spacing:-.03em;margin-bottom:14px}
+.cc ul{list-style:none;display:grid;gap:10px}
+.time{display:grid;grid-template-columns:1.05fr 1fr;gap:56px}
+.clock{display:flex;align-items:baseline;gap:18px;flex-wrap:wrap}
+.clock b{font-weight:800;font-size:clamp(4.5rem,13vw,10rem);line-height:.85;letter-spacing:-.07em;color:var(--red)}
+.clock i{font-style:normal;font-weight:800;font-size:clamp(2rem,5vw,4rem);letter-spacing:-.04em}
+.days{margin-top:28px;display:grid;gap:8px}
+.days div{display:flex;justify-content:space-between;padding:13px 18px;border-radius:12px;background:var(--soft);font-weight:500}
+.days div.off{background:transparent;color:#6b6f85}
+.addr{margin-top:24px;font-size:1.1rem}
+iframe{width:100%;height:100%;min-height:420px;border:0;border-radius:22px;background:var(--soft)}
+.contact{padding:8px 0 80px}
+.cbox{background:var(--soft);border-radius:26px;padding:40px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:20px}
+.cbox p{margin-top:8px}
+.cbox a.fb{font-weight:700;color:var(--red-dk);text-underline-offset:4px;text-decoration-thickness:2px}
+footer{padding:48px 0 32px;background:var(--soft)}
+.big{font-weight:800;font-size:clamp(3.4rem,17vw,14rem);line-height:.85;letter-spacing:-.07em;color:var(--red)}
+footer p{margin-top:14px;font-size:.95rem}
+@keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+.r{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+.d1{animation-delay:.08s}.d2{animation-delay:.16s}.d3{animation-delay:.24s}.d4{animation-delay:.32s}
+@media (max-width:980px){
+ .hero .wrap,.time{grid-template-columns:1fr;gap:28px}
+ .cat .wrap{grid-template-columns:1fr}
+ .links a:not(.btn){display:none}
+ section{padding:64px 0}
+ .cbox{padding:28px}
+}
+@media (max-width:560px){
+ .bento{grid-template-columns:1fr 1fr}
+ .big1{grid-column:1/3;grid-row:auto}.a{grid-column:1;grid-row:auto}.b{grid-column:2;grid-row:auto}.c{grid-column:1/3;grid-row:auto}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav>
+ <div class="wrap">
+  <a class="brand" href="#">Pãozaço</a>
+  <div class="links">
+   <a href="#cardapio">Cardápio</a>
+   <a href="#horario">Horário</a>
+   <a class="btn btn-a" href="https://wa.me/5531989150246">Chamar no WhatsApp</a>
+  </div>
+ </div>
+</nav>
+
+<header class="hero">
+ <div class="wrap">
+  <div>
+   <h1 class="r">Padaria aberta às 6h.</h1>
+   <p class="sub r d1">Pães, confeitaria e lanches na Rua Estér, 165, em Ipatinga. De segunda a sábado.</p>
+   <div class="cta r d2">
+    <a class="btn btn-a" href="https://wa.me/5531989150246">Chamar no WhatsApp</a>
+    <a class="btn btn-y" href="#cardapio">Ver cardápio completo</a>
+   </div>
+   <p class="rate r d3">Nota 4,8 no Google (11 avaliações)</p>
+  </div>
+  <div class="bento" aria-label="Amostra do cardápio">
+   <article class="bt big1 r d1">
+    <svg viewBox="0 0 300 170" aria-hidden="true"><ellipse cx="150" cy="148" rx="120" ry="12" fill="#f2b84b"/><path d="M40 130c-24-6-24-52 14-66 36-14 56-10 96-10s60-4 96 10c38 14 38 60 14 66-30 8-60 6-110 6s-80 2-110-6z" fill="#c9792b"/><path d="M92 62l-14 52M138 56l-10 60M184 56l10 60M228 62l14 52" stroke="#ffd166" stroke-width="10" stroke-linecap="round"/></svg>
+    <b>Pães</b>
+    <span class="ph">[EXEMPLO — nome do pão · R$ 0,00]</span>
+   </article>
+   <article class="bt a r d2">
+    <svg viewBox="0 0 120 70" aria-hidden="true"><path d="M20 36q40-40 80 0v8H20z" fill="#fff"/><path d="M20 44h80l-6 22H26z" fill="#ff7aa8"/><circle cx="46" cy="30" r="5" fill="#ff4f7a"/><circle cx="70" cy="24" r="5" fill="#ffd166"/><circle cx="88" cy="32" r="5" fill="#ff4f7a"/></svg>
+    <b>Confeitaria</b>
+    <span class="ph">[EXEMPLO — item · R$ 0,00]</span>
+   </article>
+   <article class="bt b r d3">
+    <svg viewBox="0 0 120 70" aria-hidden="true"><path d="M14 38q46-34 92 0v6H14z" fill="#c9792b"/><rect x="12" y="42" width="96" height="8" rx="4" fill="#d63a12"/><rect x="12" y="48" width="96" height="8" rx="4" fill="#58a83b"/><path d="M14 56h92q0 10-12 10H26q-12 0-12-10z" fill="#c9792b"/></svg>
+    <b>Lanches</b>
+    <span class="ph">[EXEMPLO — lanche · R$ 0,00]</span>
+   </article>
+   <article class="bt c r d4">
+    <svg viewBox="0 0 240 56" aria-hidden="true"><path d="M20 44c-14-4-14-34 8-40 24-6 44-4 92-4s68-2 92 4c22 6 22 36 8 40-30 6-72 8-100 8s-70-2-100-8z" fill="#e3a05a"/><path d="M70 10l-6 30M110 8l-2 34M150 8l4 34M190 10l8 30" stroke="#ffe3a8" stroke-width="7" stroke-linecap="round"/></svg>
+    <b>Pães</b>
+    <span class="ph">[EXEMPLO — outro pão · R$ 0,00]</span>
+   </article>
+  </div>
+ </div>
+</header>
+
+<section class="cat" id="cardapio">
+ <div class="wrap">
+  <h2>Cardápio completo.</h2>
+  <div class="cc">
+   <h3>Pães</h3>
+   <ul>
+    <li><span class="ph">[EXEMPLO — pão · R$ 0,00]</span></li>
+    <li><span class="ph">[EXEMPLO — pão · R$ 0,00]</span></li>
+    <li><span class="ph">[EXEMPLO — pão · R$ 0,00]</span></li>
+   </ul>
+  </div>
+  <div class="cc">
+   <h3>Confeitaria</h3>
+   <ul>
+    <li><span class="ph">[EXEMPLO — item · R$ 0,00]</span></li>
+    <li><span class="ph">[EXEMPLO — item · R$ 0,00]</span></li>
+    <li><span class="ph">[EXEMPLO — item · R$ 0,00]</span></li>
+   </ul>
+  </div>
+  <div class="cc">
+   <h3>Lanches</h3>
+   <ul>
+    <li><span class="ph">[EXEMPLO — lanche · R$ 0,00]</span></li>
+    <li><span class="ph">[EXEMPLO — lanche · R$ 0,00]</span></li>
+    <li><span class="ph">[EXEMPLO — bebidas · R$ 0,00]</span></li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<section id="horario">
+ <div class="wrap time">
+  <div>
+   <div class="clock" aria-label="De 6h às 20h"><b>6h</b><i>às 20h</i></div>
+   <div class="days">
+    <div><span>Segunda a sexta</span><span>6h–20h</span></div>
+    <div><span>Sábado</span><span>6h–18h</span></div>
+    <div class="off"><span>Domingo</span><span>Fechado</span></div>
+   </div>
+   <p class="addr"><b>R. Estér, 165</b><br>Ipatinga, MG · CEP 35164-160</p>
+  </div>
+  <iframe title="Mapa: Pãozaço, R. Estér, 165, Ipatinga" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=R.%20Est%C3%A9r,%20165,%20Ipatinga%20-%20MG&output=embed"></iframe>
+ </div>
+</section>
+
+<section class="contact">
+ <div class="wrap">
+  <div class="cbox">
+   <div>
+    <h2>Fale com a padaria.</h2>
+    <p>WhatsApp (31) 98915-0246 · <a class="fb" href="https://facebook.com/108567420641526">Facebook</a> · Instagram: <span class="ph">[EXEMPLO — @ do Instagram]</span></p>
+   </div>
+   <a class="btn btn-a" href="https://wa.me/5531989150246">Chamar no WhatsApp</a>
+  </div>
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+  <div class="big" aria-hidden="true">Pãozaço</div>
+  <p>Padaria · R. Estér, 165 · Ipatinga, MG</p>
+ </div>
+</footer>
+</body>
+</html>
